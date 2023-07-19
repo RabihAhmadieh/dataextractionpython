@@ -9,4 +9,3 @@ out.write(text) # write text of page
 out.write(bytes((12,))) # write page delimiter (form feed 0x0C)
 
 out.close()
-print(text)
